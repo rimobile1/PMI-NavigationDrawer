@@ -76,9 +76,15 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        String name = null;
+        int idImagem = 0;
         int id = item.getItemId();
 
+
         if (id == R.id.nav_carro1) {
+            name = "carro";
+            idImagem = R.drawable.carro1;
+
             // Handle the camera action
         } else if (id == R.id.nav_carro2) {
 
